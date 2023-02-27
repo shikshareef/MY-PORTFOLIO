@@ -1,0 +1,96 @@
+body{
+   
+ background-color: black;
+    background-attachment: fixed;
+}
+#h1{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    
+}
+#nava{
+    border-style:outset ;
+    border-color: green;
+    padding: 35px;
+    margin: left 50px; ;
+}
+.navalo{
+    border: 15px;
+    padding: 50px;
+    margin: 40px;
+    color: white;
+}
+#img{
+  display: block;
+  margin: 0 auto;
+   
+}
+#p1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#p2{
+    color: white;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+.perso{
+  
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 25px;
+    float: left;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation:  text-animation 4s linear infinite;
+}
+.educo{
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 70px;
+  float: right;
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation:  text-animation 4s linear infinite;
+}
+
+  
+@keyframes text-animation {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+  75% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.education{
+  color: white; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.subhead{
+  color: white; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+
+}
+.matter{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+ 
